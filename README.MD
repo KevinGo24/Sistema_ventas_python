@@ -13,3 +13,4 @@
 
 #   - Repsoitorio del proyecto : [text](https://github.com/KevinGo24/Sistema_ventas_python.git)
 
+<img width="830" height="810" alt="Captura desde 2026-03-11 15-00-42" src="https://github.com/user-attachments/assets/89039e8d-9970-46c5-816c-b715bcd42cc0" />
