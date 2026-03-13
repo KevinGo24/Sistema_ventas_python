@@ -2,7 +2,6 @@
 productos = {}
 total_general = 0
 
-
 def ventas():
     global total_general
     continuar = "si"
@@ -25,23 +24,23 @@ def ventas():
         if Cantidad <= 0:
             print('La Cantidad debe ser mayor a 0 ')
             continue
+        #--------------------------------------------------------------------------------------
         costo_total = Precio * Cantidad 
+        #--------------------------------------------------------------------------------------
         productos[Nombre_producto] = {
             "cantidad": Cantidad, 
             "total": costo_total
         }
         print("-"*50)
         continuar = input('Desea seguir con la compra y/n: ')
-        print("-"*50)
 
-        print("\n--- RESUMEN DE VENTAS DEL DÍA ----")
+    print("\n--- RESUMEN DE VENTAS DEL DÍA ----")
 
-        for producto, datos in productos.items():
-            print("-"*50)
-            print("Producto:", producto)
-            print("Total por producto:", datos["total"])
-            print("Cantidad total vendida:", datos["cantidad"])
-            print("-"*50)
+    for producto, datos in productos.items():
         print("-"*50)
-        print("TOTAL GENERAL RECAUDADO:", costo_total)
-        print("-"*50)
+        print("Producto:", producto)
+        print("Total por producto:", datos["total"])
+        print("Cantidad total vendida:", datos["cantidad"])
+
+    print("TOTAL GENERAL RECAUDADO:", costo_total)
+    print("-"*50)
