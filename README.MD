@@ -10,3 +10,5 @@
 
 #   - mostrar resumen de toda la compra echa
 #   - fin del pŕograma 
+
+#   - Repsoitorio del proyecto : [text](https://github.com/KevinGo24/Sistema_ventas_python.git)
